@@ -50,15 +50,15 @@ for /f "tokens=3*" %%A in ('reg query "HKCU\Environment" /v Path') do set userpa
 
 set PATH=%userpath%;%syspath%
 
-set /p original_location=<%userprofile%\Documents\CTBSCL.txt
+set /p original_location=<%userprofile%\Documents\BDB-directory-path.txt
 cd /d %original_location%
 
-git clone https://github.com/Clonephaze/Clones-Test-Bot
+git clone https://github.com/Clonephaze/Base-DiscordJS-Bot
 
-cd Clones-Test-Bot/Install Script
+cd Base-DiscordJS-Bot/Install Script
 
-if exist "%userprofile%\Documents\CTBSCL.txt" (
-    del "%userprofile%\Documents\CTBSCL.txt"
+if exist "%userprofile%\Documents\BDB-directory-path.txt" (
+    del "%userprofile%\Documents\BDB-directory-path.txt"
 )
 
 python "DependenciesFileCreation.py"

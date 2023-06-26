@@ -42,7 +42,7 @@
 
 If you choose to use my setup script then it will install *all* of the necessary missing dependencies, get all your files ready, and leave you with a completely prepared environment for your bot as seen in the above example!
 
-You will need to have already made a bot-account/application through discord. You can do so [HERE](https://discord.com/developers/applications). Afterwards youll need to invite your bot to whatever server you want it working in. Under your [Developer&nbsp;Portal](https://discord.com/developers/applications) open your application and on the left side chose OAuth2->URL Generator. In the "scopes" box choose "bot". In the permissions box that pops up choose the permissions you want. Copy the url at the bottom of the page and paste it into your address bar and choose whichever server you'll be inviting your bot to. 
+You will need to have already made a bot-account/application through discord. You can do so [HERE](https://discord.com/developers/applications). Afterwards you'll need to invite your bot to whatever server you want it working in. Under your [Developer&nbsp;Portal](https://discord.com/developers/applications) open your application and on the left side chose OAuth2->URL Generator. In the "scopes" box choose "bot". In the permissions box that pops up choose the permissions you want. Copy the url at the bottom of the page and paste it into your address bar and choose whichever server you'll be inviting your bot to. 
 
 
 ## 💻 Installing <a name = "installing"></a>

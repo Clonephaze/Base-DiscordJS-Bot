@@ -1,6 +1,6 @@
 @echo off
 
-echo %~dp0 > %userprofile%\Documents\CTBSCL.txt
+echo %~dp0 > %userprofile%\Documents\BDB-directory-path.txt
 
 powershell -command "& {Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force}"
 

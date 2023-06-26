@@ -33,6 +33,6 @@ os.remove(template_config_filename)
 # Set the working directory back to the location of the install.bat file
 os.chdir("..")
 
-# Delete the install.bat file
-installScript = 'install.bat'
+# Delete the Complete.Setup.Script.bat file
+installScript = 'Complete.Setup.Script.bat'
 os.remove(installScript)

@@ -14,7 +14,7 @@ if %errorlevel% equ 0 (
     powershell -Command "Start-Process -FilePath 'msiexec.exe' -ArgumentList '/i node.msi /quiet' -Verb RunAs"
 )
 
-set /p original_location=<%userprofile%\Documents\CTBSCL.txt
+set /p original_location=<%userprofile%\Documents\BDB-directory-path.txt
 
 reg query "HKLM\SOFTWARE\Python\PythonCore\3.8" > nul 2>&1
 if %errorlevel% equ 0 (
